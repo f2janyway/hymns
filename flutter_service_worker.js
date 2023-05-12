@@ -2,14 +2,14 @@
 const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
-const RESOURCES = {
-  "flutter.js": "a85fcf6324d3c4d3ae3be1ae4931e9c5",
-"main.dart.js": "666a42c52eb28cc941e9fb63ac2014b3",
-".git/index": "8156fe562c4496688e3146d3012d5149",
+
+const RESOURCES = {"flutter.js": "6fef97aeca90b426343ba6c5c9dc5d4a",
+"main.dart.js": "c8bc1ed99d40b91c3f831575dc32c543",
+".git/index": "bbff00ffa5126aa222488c004387d126",
 ".git/HEAD": "4cf2d64e44205fe628ddd534e1151b58",
 ".git/config": "327f4953a7a1f2aa5627bd0c11c2d2af",
 ".git/description": "a0a7c3fff21f2aea3cfa1d0316dd816c",
-".git/FETCH_HEAD": "2e522babbd1af40bc3a4675130049311",
+".git/FETCH_HEAD": "795fbb9300df0114c9b66f28f94ff68e",
 ".git/hooks/fsmonitor-watchman.sample": "db4d62db2039e4bec38baa7567788284",
 ".git/hooks/update.sample": "517f14b9239689dff8bda3022ebd9004",
 ".git/hooks/pre-applypatch.sample": "054f9ffb8bfe04a599751cc757226dda",
@@ -22,7 +22,7 @@ const RESOURCES = {
 ".git/hooks/commit-msg.sample": "579a3c1e12a1e74a98169175fb913012",
 ".git/hooks/post-update.sample": "2b7ea5cee3c49ff53d41e00785eb974c",
 ".git/hooks/pre-rebase.sample": "56e45f2bcbc8226d2b4200f7c46371bf",
-".git/COMMIT_EDITMSG": "7283ba8f306dbd821d54ed463751f339",
+".git/COMMIT_EDITMSG": "cc9562599bea81737acd4d9c03bbcd30",
 ".git/objects/49/239be79c9785eae7baf9450dc20dadf8988308": "67bfcc33a3f1c01426f72bf4c0d888da",
 ".git/objects/6d/d10815fffc286da4be542e1a1165dc1960459f": "e1a1f41456e2118b8cd64c23354fc4e4",
 ".git/objects/6d/d10f8cb35241a56b4d0743547203a8a430d111": "94a774164e2ea8da0793285c4382af39",
@@ -165,6 +165,7 @@ const RESOURCES = {
 ".git/objects/55/65e3cf261f98f1d6026caaaec535c14607e0e7": "c36e0622c9b26b29734fc41316132a9f",
 ".git/objects/55/919b0b32f21410d9755ffbe64aeb2d07650744": "ffb88073b04c5f9454f1e7f08edc733c",
 ".git/objects/55/d4fc9835d1bf9b7e91b249f9573cea2d1cd6e2": "c085a7600700ce6771f07598d7ca7993",
+".git/objects/55/ce90e8e753171c9bfb83bd8e09f43601c72864": "422bde87fa36e173009a28df1abe6807",
 ".git/objects/7f/4a6d11e9870471f3e93c5558fb7fe0313bc378": "76bd7806a8e58d738249cf8688257692",
 ".git/objects/7f/335cf7b3502611f82fbcc85e2d4916de41a63b": "82829089f6763632b38cac66002fdfc5",
 ".git/objects/7f/623dba586c0c064fe77a365b38daeb73d0fdaf": "05790f39eb8b79e73c0efa71d254018b",
@@ -237,6 +238,7 @@ const RESOURCES = {
 ".git/objects/2a/5637b7da7b32c176d55bbd93f24b7b9df34676": "3c716bc1b2edb2aeed5ac3cef0797a6e",
 ".git/objects/fe/0c129910e64788dfc0347fc4ce8fe6f89f382e": "a28dc14dcb8e99fc7046f3a3423dd37d",
 ".git/objects/fe/ee2db10dadfd35e5878b7e80845da219227fc6": "f36da202d761dec9aa2e308d03c322d8",
+".git/objects/fe/3b79f6614119b1e37ab3b036ea789688e7e5a5": "d1e5a422acf6d5b08afc495d9297faba",
 ".git/objects/ce/cac7e12a98c4f547db499107aa88effe9435ce": "78afad133148373aa392a020da68422d",
 ".git/objects/ce/2693741a8a8cf818916e61e58fe50631e08141": "88deb8dc1435690791d4c24dcf4c7200",
 ".git/objects/14/2a5cd981e7f7166ba023da49002af8d209ac20": "ab364ba077de74c878dcc8c73b169e71",
@@ -372,6 +374,7 @@ const RESOURCES = {
 ".git/objects/71/ff9cfb1a59d3f12319d64ade5e9d74663c3e47": "238af6f4a4ffe23ab43dc10ae0dc2da9",
 ".git/objects/71/8d8003b41a0a7249e922777e04515cca16f4bb": "e829a99b016ccd1f52ac1a1221fa445d",
 ".git/objects/71/f3021638e798cb2ddf1199f079bc2131f9b552": "af6132af43eca0c4bd4d9bf786c80f1f",
+".git/objects/71/b8e2fcf9480c34cab84ccddaae98d11f17f40d": "46f2ea7efd0fd8077daf2fcc3e785389",
 ".git/objects/2d/bd0f5963f7d9177ce27ff4f0cf07987fbad476": "112478a299113e4762777dd71c3ca93c",
 ".git/objects/2d/a897a3318996257c1463cdb9c2e21a7bf69773": "2f06828404d354f3c039e1a153de5173",
 ".git/objects/2d/0a48e8370fb9502297ee402592236d413a1c3c": "56bc7d105fc78d111e4c8f9180f8da5f",
@@ -439,6 +442,7 @@ const RESOURCES = {
 ".git/objects/92/420026024c26b6b45d1a8b34efecbbe723db27": "e4f4169b057f659e0ac22a560a382a5a",
 ".git/objects/3f/2130a0a97547257869b8cd9d2313843520e5f8": "50e5e33c1692275ab3f3eb9e9da5f31d",
 ".git/objects/74/db5cca33418dbd46305939a8aa2977c4858c7d": "b2f9293163a9e5ab68f61ca14ff34743",
+".git/objects/74/f72a5e767acfbbc9e380b1c8e38652d30ba0ac": "0c4e79be1fd3a1b470370c73202db83a",
 ".git/objects/74/11c147e6a3a25319b943d061549a9357dd884b": "5f48b95a4ad0cefdabba573029f3f908",
 ".git/objects/74/5e3f380ebdf90f7f762c49ed342b48d2026919": "baf22ad39009d819af4775eed7b6845c",
 ".git/objects/de/d7ae30419cbceb3dd47f830dd8f1c166d26857": "15c8737eddd9cc0aa8a30200b8eb7dd9",
@@ -535,6 +539,7 @@ const RESOURCES = {
 ".git/objects/69/67eeddb9150273f3b936dc3e79886f39749580": "b3deb9b428320e8da09af8460d7b8bea",
 ".git/objects/69/58c14edb80ce3e6a221c111fab666ea95ee535": "5a5fa5aa5e42c4aa1cc9242a466f91c6",
 ".git/objects/69/247073ea7ccc3e5dec7e355acc2d6cf27a1a1e": "ca606ec3d4cad35950f14dea1ff6833f",
+".git/objects/13/5b3c1b03538d81ffa58c7fdb408a01c663aeb3": "9619de4e12a5390c3a7957792ad83375",
 ".git/objects/13/8b377fc75ac4ded18e0b8f7f8c454fa86f760a": "1e876c756f1e7e8bb321f69e24c12221",
 ".git/objects/bf/e544d404895324c67c29b6bd73f18d1211ecb6": "f30b52bb3d2121f38b124f273cea3e70",
 ".git/objects/bf/c5936e12ed98b46457faa6478eb801c1363a86": "26b29d5b38deb4538cabe42389bb6610",
@@ -557,6 +562,7 @@ const RESOURCES = {
 ".git/objects/34/3cfc2ea9c5bdc0b122d20b2d3a945fb1ef0964": "84b56e9bb547ca4fb27c886b7ddfe76b",
 ".git/objects/34/c607ee81d3ce8f1e5aeb7d5eceb21bca4f7b9e": "2a150464d3324f673b671046927a6233",
 ".git/objects/34/268c8fb08acabb6fa621addd12172b9be29cd8": "f94db92e0f597ebc40dd1f149a7fd53c",
+".git/objects/d2/7f0146e031772afdd73794f77ae803cf30b8ea": "8466d4e4b7ca9011f704211ee517472c",
 ".git/objects/d2/6253b6f80f0f0d151767ea581811d54a29d4f7": "92ddcfe025ef2468d6219d8fb86782e3",
 ".git/objects/d2/5e422dd0c76dee6f6aac3ee9fb15acf195ef1c": "40ff4295a9b47c3036f6c8381031debc",
 ".git/objects/d2/7a84196f85d59f2f9110a6496639a0db5c04d4": "c94df1acbdceb8885b49af6061479c58",
@@ -564,6 +570,7 @@ const RESOURCES = {
 ".git/objects/78/3dfebf2c2c3f091abca66191c5765d5c4bef4f": "5dacfa78252d47aa4f5e05bd6a6e52fb",
 ".git/objects/78/52955f150849c88ec8d858aa2fd22909ffefca": "efd7551cfc0117a7656487e2f6e57e90",
 ".git/objects/0f/0812bde89a92a6b4b75a58f5b8fb6b4f3d01cc": "82fc3e9a36ed383105c19ce4d056a8d6",
+".git/objects/0f/5a6e52403efdee91fef251ab3fed66aaa8236d": "b4a19da5550c4f3b99933973831068f7",
 ".git/objects/21/ec9608bbf9c48a91b13dcfbcafac0595911cbe": "8ecbb25b9fa08edb591f9df05e889534",
 ".git/objects/21/92e4907b6de8ef7e4016e58f565ae89e434e7c": "9651f7019a49caec37365931e1327274",
 ".git/objects/21/954f5bd858bbc057a615564f8c71914266f76e": "39ad3d8f5547cc9329080053f4b92cdc",
@@ -691,6 +698,7 @@ const RESOURCES = {
 ".git/objects/75/3700330cfed07576d0c59cf05b1ae575446066": "9a3a0a20636e5c10f374bd8c019821d8",
 ".git/objects/75/f7271cc9bc6a3baa6daa9d9bca4e784cea3a32": "bdd6313920c3de721834652b56255342",
 ".git/objects/75/c3e02376fc5725e7d9aac7e1ce122c06784174": "9ea2543e5c47390647f932c09563974e",
+".git/objects/75/687a442626ef4241435c5bb7407b965aacbfc3": "3a95b04c2dd8f32fe83b5e158bef800f",
 ".git/objects/75/1d9b7673f31ee30fb0c42aec725a059204eff5": "d13406406f125ba6728c53928d2a87c7",
 ".git/objects/75/9d74164e0aa46074a151e370e7aff60199469b": "9a6e8941e483bc1d62549b676b7dd484",
 ".git/objects/2c/2dabab80b83afec833edf37de1413a88d79bf5": "a4e4655b37cb43e7d79f616f956ce3c3",
@@ -710,6 +718,7 @@ const RESOURCES = {
 ".git/objects/c2/e25c6d2bff37efb10ece4f4230a4964db791d0": "cfcb1bc85e9cb9c7992f05d581f9a5d0",
 ".git/objects/22/8772bc9e576df03a5cc38a7d537b0730dc2034": "29c2391bc308ae2c71afc85b54f4eea6",
 ".git/objects/22/4e51eb15bb2d634ba3cb81f7d1d7280c6fa4ef": "230de7c5f7667e378cf342802a8201b8",
+".git/objects/c1/b97ed2d3cb1f016d3c984d4b99662969939a8d": "e1b1e4c3710e312d855e891b8639a9b3",
 ".git/objects/c1/6b64ece6ac4311577b420a65bcf6b64e0bbbed": "33ca86b4998f3b0919b863d8a23e024a",
 ".git/objects/c1/0393a21fb362643d00ba1bd4f93568e4e3c526": "c1116c2fb496e5103afcc846e627d1b4",
 ".git/objects/c1/5611c4d7cb13b153c728e8c5d17904ad7b0ef3": "3ebd72d9d95c423ad3b90b53964fc6e2",
@@ -747,17 +756,16 @@ const RESOURCES = {
 ".git/objects/e9/98dba93aad59b0f628dadde7b8d6387c9621e7": "0492aa807e5e21d791d481679df62db2",
 ".git/objects/2f/5fd882913358c9cc5fcea48204aee3b82d57fd": "56a915eb50485b7a99c0b11defd6b0a7",
 ".git/info/exclude": "036208b4a1ab4a235d75c181e685e5a3",
-".git/refs/remotes/origin/master": "fb35e89a2cfd6d8d28a53edcb6f5ccbc",
-".git/refs/heads/master": "fb35e89a2cfd6d8d28a53edcb6f5ccbc",
-".git/logs/HEAD": "6b9ce0c5176f31bdb61b2be0d0187beb",
-".git/logs/refs/remotes/origin/master": "6e513e4ba431adceb2f09e4efc01d71b",
-".git/logs/refs/heads/master": "6b9ce0c5176f31bdb61b2be0d0187beb",
-"assets/NOTICES": "707ecf1a0db094a0c840340fd32b609e",
-"assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
+".git/refs/remotes/origin/master": "cd57509db12ddc05062597a77206b1aa",
+".git/refs/heads/master": "cd57509db12ddc05062597a77206b1aa",
+".git/logs/HEAD": "a1ab27197c967d8d64a17b3dbc7622b9",
+".git/logs/refs/remotes/origin/master": "23cd4ce09fdc6dc040b9f67f7a81b1f8",
+".git/logs/refs/heads/master": "a1ab27197c967d8d64a17b3dbc7622b9",
+"assets/NOTICES": "215ba63eb63fc7bd67f7a047f4878238",
+"assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "57d849d738900cfd590e9adc7e208250",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
 "assets/imgs/hymn/402.jpeg": "16ed0a9c0a2fd3822d02db7afa194b06",
 "assets/imgs/hymn/45.jpeg": "83e3746e6410acfdd2f6c3b9ba079978",
-"assets/imgs/hymn/-308-309.jpeg": "567139cd88ffa2a100df63dfc0600bdc",
 "assets/imgs/hymn/117.jpeg": "f1b0f312fcc0d91cebd00c8c1d940a1f",
 "assets/imgs/hymn/562.jpeg": "fe67b7dac3a256ca96dedbe3c58cd2d5",
 "assets/imgs/hymn/232.jpeg": "bf591a8289d8729d4412a31ce44652dc",
@@ -799,11 +807,9 @@ const RESOURCES = {
 "assets/imgs/hymn/155a156a.jpeg": "dd85acd12e71a5b385fc1732e8eba21d",
 "assets/imgs/hymn/614.jpeg": "71843b023527bc4c2d91b30e403fcb27",
 "assets/imgs/hymn/283.jpeg": "0324e3feaec2aa847e85df2f474e3362",
-"assets/imgs/hymn/-500-501.jpeg": "f8d5db2e1a9539b96f39a346deb48bc9",
 "assets/imgs/hymn/626_0.jpeg": "ce1c33bd88943c768174e69ba604a9f3",
 "assets/imgs/hymn/207.jpeg": "fc31ee0a95b2774384984a4d27e39f34",
 "assets/imgs/hymn/557.jpeg": "81fdcb310daa6cd3a7139fd524b5879d",
-"assets/imgs/hymn/-597-598.jpeg": "62d36c39f8a7e2ca30b8a44efe4b4700",
 "assets/imgs/hymn/4.jpeg": "b10bfa60fcf7f89679337b7fa6b31f16",
 "assets/imgs/hymn/182.jpeg": "266440dcccdb207f81d06f10f297e882",
 "assets/imgs/hymn/134.jpeg": "fb5078b09a108b612700111b246806fb",
@@ -836,7 +842,6 @@ const RESOURCES = {
 "assets/imgs/hymn/129.jpeg": "9b83081c1a3015fb02454057c3a0c71d",
 "assets/imgs/hymn/312.jpeg": "55fea06fb1f8510885962a8cfad66eec",
 "assets/imgs/hymn/1a3.jpeg": "aea659ea3231d307a32df5cf424f052b",
-"assets/imgs/hymn/-520-521.jpeg": "66be8eec1615d1c6e4d35e7f012a02a1",
 "assets/imgs/hymn/24.jpeg": "70301858110c30bc35e4c282fef75c15",
 "assets/imgs/hymn/602.jpeg": "d991171a492596d9242845ca47c7164b",
 "assets/imgs/hymn/466.jpeg": "d80ad5a859b556071f105ee1ee34076b",
@@ -852,14 +857,12 @@ const RESOURCES = {
 "assets/imgs/hymn/128.jpeg": "6c5a1e9f7ad7cb5c6d7d5b15dda94b6c",
 "assets/imgs/hymn/491.jpeg": "0c69c328845b134e4c3d0ed38bc92b6e",
 "assets/imgs/hymn/a599a600.jpeg": "f0b5e7ad7bbc36f7c6431d31944ee822",
-"assets/imgs/hymn/-293-294.jpeg": "fe988a1bad9e1ed39c87fac408c3f06d",
 "assets/imgs/hymn/276.jpeg": "4173a9ad759e971ff9042aea7b50025f",
 "assets/imgs/hymn/82.jpeg": "649b5c7d1292d1794c1c5697882b9a44",
 "assets/imgs/hymn/273.jpeg": "9670934d69acf86004c06e48804b694c",
 "assets/imgs/hymn/553.jpeg": "ed0b78deaf6b7871aded89fd90e36e0c",
 "assets/imgs/hymn/a57a58.jpeg": "8433c81fd6e2b662843afd2d9201110b",
 "assets/imgs/hymn/a597a598.jpeg": "62d36c39f8a7e2ca30b8a44efe4b4700",
-"assets/imgs/hymn/-669-670.jpeg": "ea1cbcc3640c5b0dcfada564eae527b1",
 "assets/imgs/hymn/236.jpeg": "20660d36b46e179487a0ff2116e8e11c",
 "assets/imgs/hymn/488.jpeg": "97cfddfdc1cefb9efb66795b19bda811",
 "assets/imgs/hymn/75.jpeg": "554c9f3cfc0bda510cdb968f3b84ae37",
@@ -880,7 +883,6 @@ const RESOURCES = {
 "assets/imgs/hymn/110.jpeg": "9bd4f63c5e997ef91db179784c0e902a",
 "assets/imgs/hymn/164.jpeg": "5e9f5bc5fa1bd885cfd7b447c22cea79",
 "assets/imgs/hymn/452a.jpeg": "599539784019057064d94794f8a043a1",
-"assets/imgs/hymn/-387-388.jpeg": "f0bd8a31a4a8808d96b77a6ff06a525a",
 "assets/imgs/hymn/552.jpeg": "2ba15ef1b1948b19ceabb015d067a7c0",
 "assets/imgs/hymn/529.jpeg": "124750810ca18eea0b18c0b7bdb46662",
 "assets/imgs/hymn/198.jpeg": "01a78d93d7dfed3247a55f1ea53b5eaf",
@@ -971,16 +973,13 @@ const RESOURCES = {
 "assets/imgs/hymn/248.jpeg": "d2843471809efbcf6ac5bd7d8d38fca8",
 "assets/imgs/hymn/424.jpeg": "766548940813aae6087fc2c114785baa",
 "assets/imgs/hymn/321.jpeg": "994e1196d835c0d293d4603f43993db9",
-"assets/imgs/hymn/-191-192.jpeg": "72d2282c413bbc95a49b892af18aceb2",
 "assets/imgs/hymn/17.jpeg": "da3f0077c932a3af8dbe44a9504224e0",
 "assets/imgs/hymn/298.jpeg": "7ff9fb4a2bc446d88da113e706d84b0c",
 "assets/imgs/hymn/a478a479.jpeg": "b50aa4c1978013f806ea4472e763c3d5",
 "assets/imgs/hymn/563a564.jpeg": "4bad386cd88c75b47811b553714014d5",
 "assets/imgs/hymn/a452a453.jpeg": "f0ee874e130fcc0c95a5eea8aec16435",
-"assets/imgs/hymn/-358-359.jpeg": "54e86d4679257708b48d15b0f7b3e25a",
 "assets/imgs/hymn/363.jpeg": "6b90baccba143200910a45f893901531",
 "assets/imgs/hymn/571.jpeg": "a3af74efecb4070e911231434395b42b",
-"assets/imgs/hymn/-437-438.jpeg": "d2097138b95c7de65a372e2092d8e6fd",
 "assets/imgs/hymn/660_1.jpeg": "edca0f800d76fbb43ec2e0c3f5c19ecc",
 "assets/imgs/hymn/589.jpeg": "b74e712408bca6ea3cb8db4b3bfcd62e",
 "assets/imgs/hymn/268_1.jpeg": "6d71800f127649e3a6ce86ea98b52682",
@@ -1003,7 +1002,6 @@ const RESOURCES = {
 "assets/imgs/hymn/427.jpeg": "564322653319d4846df29a841ebae2c1",
 "assets/imgs/hymn/6.jpeg": "396b2a1ca512745025daab59bca8ffea",
 "assets/imgs/hymn/316.jpeg": "8a69db9f494056c0f92e58107fb4639a",
-"assets/imgs/hymn/-45-46.jpeg": "ad03e2ad3fd36bdf59ef529b3adde424",
 "assets/imgs/hymn/657_2.jpeg": "56ccdf4b6e2f31df952f15d10f3a4978",
 "assets/imgs/hymn/230.jpeg": "b2a27db004359b9de29dadac784916f3",
 "assets/imgs/hymn/223.jpeg": "39c55e2f617d8b110abbfe40fe744ee4",
@@ -1031,7 +1029,6 @@ const RESOURCES = {
 "assets/imgs/hymn/288.jpeg": "f28378799aa5ee934311445ca09ac2bd",
 "assets/imgs/hymn/125.jpeg": "12fb31ba9d185aa750aa18a4bca73476",
 "assets/imgs/hymn/26.jpeg": "365d53a60bfa2fb40b7b57583557bf62",
-"assets/imgs/hymn/-263-264.jpeg": "03e22dc98a30031d7a18a07b96893aac",
 "assets/imgs/hymn/22.jpeg": "3b417e3f7d21afc52c4c801980768846",
 "assets/imgs/hymn/540a541.jpeg": "4083fb59bac40c2bbbd253a5b1b6421a",
 "assets/imgs/hymn/661_0.jpeg": "df962d0176080d7db3d2fa0c44b13dac",
@@ -1049,7 +1046,6 @@ const RESOURCES = {
 "assets/imgs/hymn/188.jpeg": "b79aef4226029bde3854c18cc0e5a698",
 "assets/imgs/hymn/350.jpeg": "7a19d8d515681b8eca917d96f616e27a",
 "assets/imgs/hymn/510.jpeg": "55fd8a8e1022aba524197e37a3b4f8af",
-"assets/imgs/hymn/-115-116.jpeg": "29088ba49fa9468ab8ef288608826929",
 "assets/imgs/hymn/324.jpeg": "ea93d53291c8b96e6f7d8025fbbc1e63",
 "assets/imgs/hymn/310.jpeg": "70d8e10cc001b853215f0d98696cb56d",
 "assets/imgs/hymn/331a332.jpeg": "3b4bb51608b7348cb7d7f99468c52c78",
@@ -1073,7 +1069,6 @@ const RESOURCES = {
 "assets/imgs/hymn/170a.jpeg": "5eee6494cb65a54ea7203fec4b15768a",
 "assets/imgs/hymn/195.jpeg": "d6f3cbf379b351335e6c056e41dbe723",
 "assets/imgs/hymn/364.jpeg": "9cd5acc85d16b7fa33dc9ea302f70252",
-"assets/imgs/hymn/-137-138.jpeg": "16ffc9a40c0515e8ea29a68c2ddc957c",
 "assets/imgs/hymn/622.jpeg": "20c11e3ed5977751e4fa9aa29823ad7b",
 "assets/imgs/hymn/113.jpeg": "f02ae50fb0d6abc7f88566bc74b1099b",
 "assets/imgs/hymn/629.jpeg": "bf714309147f4e4d7bde7783be32886a",
@@ -1083,7 +1078,6 @@ const RESOURCES = {
 "assets/imgs/hymn/243.jpeg": "3be7aa6413e1689abf0604e45efc9af9",
 "assets/imgs/hymn/416a417a.jpeg": "2c5077697834726291e85059fbe43186",
 "assets/imgs/hymn/305.jpeg": "34fb1f4ca25d31f4343571c39b86ca9c",
-"assets/imgs/hymn/-156-157.jpeg": "56d17fa47a5ffd95cc9a5bd8ce06de2b",
 "assets/imgs/hymn/327.jpeg": "c8f185eab8017cb879b55973861d4067",
 "assets/imgs/hymn/64.jpeg": "b9298a45c88c6c65206992e610d41db2",
 "assets/imgs/hymn/186.jpeg": "7038d487d3422392202fcc0fb955f283",
@@ -1094,7 +1088,6 @@ const RESOURCES = {
 "assets/imgs/hymn/37.jpeg": "529152ac84d2382a189f42c4771e33c1",
 "assets/imgs/hymn/389.jpeg": "31555ee9747eb87ca3b2bfbd8951525b",
 "assets/imgs/hymn/362.jpeg": "c0803ec7ba73d119c43abbeced731357",
-"assets/imgs/hymn/-35-36.jpeg": "c04ffab232a85bf47195f53f1de96357",
 "assets/imgs/hymn/464.jpeg": "21fc96936bff77cedc3334780ca7bc26",
 "assets/imgs/hymn/153.jpeg": "f14ab3d9251f709f34b42060469dcedd",
 "assets/imgs/hymn/88.jpeg": "cd7e6df1fe13d8cf8e226c235868ff3b",
@@ -1105,7 +1098,6 @@ const RESOURCES = {
 "assets/imgs/hymn/608.jpeg": "697e743f5c09a247b4b173007f628e27",
 "assets/imgs/hymn/320.jpeg": "4adaba4d36b330b0ec888c86ceac0b12",
 "assets/imgs/hymn/538.jpeg": "62d4aea7d90fca0497bae335861014e2",
-"assets/imgs/hymn/-228-229.jpeg": "b9c834f8f38188b63b385536779bfd4b",
 "assets/imgs/hymn/625_1.jpeg": "b83187c82aa57a72c084ae70681a7844",
 "assets/imgs/hymn/346.jpeg": "65ac4c4d2f8628e47c06b42e383d11e5",
 "assets/imgs/hymn/133.jpeg": "04590d8fe6f6e27b6ecf06278411ce20",
@@ -1120,7 +1112,6 @@ const RESOURCES = {
 "assets/imgs/hymn/356.jpeg": "da40fef2505f9aa779f78360e1274d34",
 "assets/imgs/hymn/258.jpeg": "11103aa41407e784fd92af4cf4d310c3",
 "assets/imgs/hymn/81.jpeg": "700cbecf10c983d7e29be1e906e2e257",
-"assets/imgs/hymn/-478-479.jpeg": "b50aa4c1978013f806ea4472e763c3d5",
 "assets/imgs/hymn/a115a116.jpeg": "29088ba49fa9468ab8ef288608826929",
 "assets/imgs/hymn/473a474.jpeg": "97a591a56b539c82fd7e820d18ad89f0",
 "assets/imgs/hymn/653_0.jpeg": "5c37f94c03f16ff5e13c9f2664231793",
@@ -1128,7 +1119,6 @@ const RESOURCES = {
 "assets/imgs/hymn/467.jpeg": "4757c19a63b21be674f81b354a9545c9",
 "assets/imgs/hymn/654_7.jpeg": "0ecc68e9225ac32e90f9a9d770985646",
 "assets/imgs/hymn/a400a401.jpeg": "f0db136e265f080a80a605024fa2ae94",
-"assets/imgs/hymn/-400-401.jpeg": "f0db136e265f080a80a605024fa2ae94",
 "assets/imgs/hymn/382.jpeg": "568cd22be3f33038a3158534694fda85",
 "assets/imgs/hymn/659_1.jpeg": "d1726f1b2e3e2202baff0db63f5664b5",
 "assets/imgs/hymn/a225a226.jpeg": "cf3c7424bb911e2b8138a6ee3cef5a2d",
@@ -1166,7 +1156,6 @@ const RESOURCES = {
 "assets/imgs/hymn/293a.jpeg": "0d4b5bcdc9e6be285b23918646a6c8c5",
 "assets/imgs/hymn/411.jpeg": "f0bbe76e5d60478d523877f9df67971f",
 "assets/imgs/hymn/567.jpeg": "4dda584f9d7b2ba56bf8993f5e92d08a",
-"assets/imgs/hymn/-455-456.jpeg": "f632aac1780a5116b2c6e55252f56fbe",
 "assets/imgs/hymn/250.jpeg": "813771c7d2ff436d18b608c22f3288a7",
 "assets/imgs/hymn/545.jpeg": "b1d2f3e8c4274c9d91fc9e68937fedb1",
 "assets/imgs/hymn/314.jpeg": "8dcf3a6034f8c131d4fbd6bd938a44df",
@@ -1178,7 +1167,6 @@ const RESOURCES = {
 "assets/imgs/hymn/315.jpeg": "cebf5be6bf1695a68b6229e123bed04e",
 "assets/imgs/hymn/652_0.jpeg": "0f0f26184453f85c6f394041ff191d79",
 "assets/imgs/hymn/468.jpeg": "a4f62bd10422c58ee49725d1b4f13863",
-"assets/imgs/hymn/-48-49.jpeg": "9855371470fe54c6cd62fd83d9798981",
 "assets/imgs/hymn/558.jpeg": "c48fa1e1f870000224335f9e749d4671",
 "assets/imgs/hymn/654_2.jpeg": "47cc3e7294c4d53f988147183a2f56a4",
 "assets/imgs/hymn/200.jpeg": "1d099626b9227714b1b8584dd9a42f25",
@@ -1201,7 +1189,6 @@ const RESOURCES = {
 "assets/imgs/hymn/99.jpeg": "97f6b684ef8dc2e3f9b1feaf60af8d02",
 "assets/imgs/hymn/8a9.jpeg": "3fff5bfad5a6de784c2c0c9ee49fb36d",
 "assets/imgs/hymn/475.jpeg": "f5faa1f6d9fe4f888dd7c559cdec1514",
-"assets/imgs/hymn/-555-556.jpeg": "28c10bd68e174819157810f5d5a7a217",
 "assets/imgs/hymn/569.jpeg": "f671f13cddcafa1ae14e2be799a5c40d",
 "assets/imgs/hymn/403.jpeg": "d0cbed2145701db5d8479fb5f848bc8c",
 "assets/imgs/hymn/528.jpeg": "16915cf8b175307d9505e171908c884f",
@@ -1220,7 +1207,6 @@ const RESOURCES = {
 "assets/imgs/hymn/428.jpeg": "4d024102adfd4c7d48c07d41b33e771d",
 "assets/imgs/hymn/25.jpeg": "944e59263fc3f0a4a0d0cf21e82940ac",
 "assets/imgs/hymn/441.jpeg": "c4642d9607299ea4baf9cfb2f42ad3ee",
-"assets/imgs/hymn/-91-92.jpeg": "94510db5f7c1360d72a9014226919364",
 "assets/imgs/hymn/169.jpeg": "a4605c82c12a4d4d6ae6ce1e7a3c0958",
 "assets/imgs/hymn/7.jpeg": "2f0e86d0fd6c9a2f3613546f326b10c2",
 "assets/imgs/hymn/165.jpeg": "5911728bc1092cb076ee88f1f0c3949b",
@@ -1250,7 +1236,6 @@ const RESOURCES = {
 "assets/imgs/hymn/657_1.jpeg": "1e6a758e1f3e5665806985890a461fa6",
 "assets/imgs/hymn/490.jpeg": "3a071d4c7ef004218c5a8ad2a33f6688",
 "assets/imgs/hymn/a285a286.jpeg": "fb6e389903490f079fee2af401c561a8",
-"assets/imgs/hymn/-225-226.jpeg": "cf3c7424bb911e2b8138a6ee3cef5a2d",
 "assets/imgs/hymn/604.jpeg": "a531004933968dea9d3bbc405f0f9348",
 "assets/imgs/hymn/50a51.jpeg": "db078a19536be7b9ced31b221754c8fd",
 "assets/imgs/hymn/269a270.jpeg": "35a0bae9b75b13dcd640f093fc5765e4",
@@ -1278,11 +1263,9 @@ const RESOURCES = {
 "assets/imgs/hymn/196.jpeg": "90eb6f11608e54f95a4a2da973153022",
 "assets/imgs/hymn/444.jpeg": "5eee6756ec9d443c26a0a3257d315966",
 "assets/imgs/hymn/239.jpeg": "375d2f1ec9749f0be9dd902075e3285b",
-"assets/imgs/hymn/-285-286.jpeg": "fb6e389903490f079fee2af401c561a8",
 "assets/imgs/hymn/582.jpeg": "d9041ca098ebee512bf5d90aaa8dcf04",
 "assets/imgs/hymn/625_0.jpeg": "be15ee585a9b48b2c12ef384daa08630",
 "assets/imgs/hymn/632.jpeg": "9ab9bdaed87c53f573939c9f54fe58c3",
-"assets/imgs/hymn/-419-420.jpeg": "8a531345a7e59402d6fa3b5b971b7434",
 "assets/imgs/hymn/266a267.jpeg": "b2178c9f7271374c9d3a1d14550998bf",
 "assets/imgs/hymn/664_1.jpeg": "125c2e6472193070b1339c0e8232a5fa",
 "assets/imgs/hymn/659_0.jpeg": "b732ba63dfdd9b569630c70e132cbad2",
@@ -1290,9 +1273,7 @@ const RESOURCES = {
 "assets/imgs/hymn/581.jpeg": "5127079d937301a1c66eb00bc40b0bdb",
 "assets/imgs/hymn/641.jpeg": "2a76f75d991e59e06e6d5403024ec7fc",
 "assets/imgs/hymn/111a112.jpeg": "d80683e0e94783617c3a25243860f0aa",
-"assets/imgs/hymn/-507-508.jpeg": "96a2a755738a05e91d4c25a3f499903a",
 "assets/imgs/hymn/487.jpeg": "f2421e8b601fd0dd39288d02c29fcb9b",
-"assets/imgs/hymn/-446-447.jpeg": "abe5a1337795dbd2a0833893b03c68d8",
 "assets/imgs/hymn/355.jpeg": "01599968663fbb9c3521472d18909a2c",
 "assets/imgs/hymn/326.jpeg": "ede2c35bb2d501271e9b553970ee2894",
 "assets/imgs/hymn/495.jpeg": "1f121909fa7b3e192347ff5283f35b72",
@@ -1305,10 +1286,7 @@ const RESOURCES = {
 "assets/imgs/hymn/451.jpeg": "614670b01a3bc006d7a4376a06c0d255",
 "assets/imgs/hymn/595.jpeg": "f17eea58be8b0c066da97cfbce3e368c",
 "assets/imgs/hymn/550.jpeg": "d1aa40e2fa4dbd5b9fd537c6761461fb",
-"assets/imgs/hymn/-57-58.jpeg": "8433c81fd6e2b662843afd2d9201110b",
 "assets/imgs/hymn/610.jpeg": "f10803cc9269e7ec319260892f9abdd3",
-"assets/imgs/hymn/-452-453.jpeg": "f0ee874e130fcc0c95a5eea8aec16435",
-"assets/imgs/hymn/-372-373.jpeg": "0550d61d25e9e5c14439b8c4e3cb2d0b",
 "assets/imgs/hymn/338.jpeg": "7976a15550baee5e20ef1612e91646d6",
 "assets/imgs/hymn/83.jpeg": "eaef2c5e4d5764c6ccc399a2165f88af",
 "assets/imgs/hymn/311.jpeg": "a5a581bf8322bd1f93a609e9b636849f",
@@ -1317,7 +1295,6 @@ const RESOURCES = {
 "assets/imgs/hymn/59a60.jpeg": "caf6cc9d8340f89d43f70f451d37680b",
 "assets/imgs/hymn/470.jpeg": "99fec463d86f668a70e31490feff9869",
 "assets/imgs/hymn/323.jpeg": "fec976158431f6ea55effe01ed241b86",
-"assets/imgs/hymn/-417-418.jpeg": "ad3f30be6320128f4ce0f5f7a5cfd110",
 "assets/imgs/hymn/640.jpeg": "fcc60c43f9e14bf775f079b860861efa",
 "assets/imgs/hymn/19.jpeg": "6f7c4da8d050a5cccde5359322292b21",
 "assets/imgs/hymn/657_5.jpeg": "5751c26ef2aad640fb44928add0bf705",
@@ -1336,7 +1313,6 @@ const RESOURCES = {
 "assets/imgs/hymn/480.jpeg": "09f7c3864769322e2bc2929a10f3ddb7",
 "assets/imgs/hymn/485.jpeg": "2886d65b5f754fcf0987ad7e4c369ecf",
 "assets/imgs/hymn/279.jpeg": "463610a3946cbb3ee982a7fc46b5d7f0",
-"assets/imgs/hymn/-170-171.jpeg": "3482bbff4a983ae860ac94bd28fca450",
 "assets/imgs/hymn/671.jpeg": "ff865c85bae2f1521850e1e85639b3d8",
 "assets/imgs/hymn/73a74.jpeg": "d138e65579c14f6f147a2c3c778e5333",
 "assets/imgs/hymn/202.jpeg": "dfb81863db5351c74f46df89e4d85721",
@@ -1363,7 +1339,6 @@ const RESOURCES = {
 "assets/imgs/hymn/105.jpeg": "a9ea48411c99cf6f62345a88a8575b99",
 "assets/imgs/hymn/458.jpeg": "815b7e02d57b412457eee8b769442bea",
 "assets/imgs/hymn/172.jpeg": "45b0f1a5593e54eb76eee0fc59a64eab",
-"assets/imgs/hymn/-599-600.jpeg": "f0b5e7ad7bbc36f7c6431d31944ee822",
 "assets/imgs/hymn/150.jpeg": "0ddbfc627ca1aa963592c61b09078c96",
 "assets/imgs/hymn/565.jpeg": "fef3a00b8c33a71b7fb31e65e3d32108",
 "assets/imgs/hymn/657_4.jpeg": "e8afe0eaff0d0b2784791b7eb963b9cc",
@@ -1412,7 +1387,6 @@ const RESOURCES = {
 "assets/imgs/hymn/551.jpeg": "8756daa6190a4ae7045cf9257c9c3410",
 "assets/imgs/hymn/84a85.jpeg": "51805d126d4f8489040ba5021cd9fc1e",
 "assets/imgs/hymn/115a.jpeg": "b2f8e0e308c6aa8a383bf9f06592db0c",
-"assets/imgs/hymn/-12-13.jpeg": "41d5231fc964ed4320523c2346bbf8bd",
 "assets/imgs/hymn/572.jpeg": "2e65568574ac5204b14761d26b68db4a",
 "assets/imgs/hymn/642_0.jpeg": "050dcea7eb495c695e73e71b87e273e8",
 "assets/imgs/hymn/253.jpeg": "b702b0541a64831d2da346e523e2bc5f",
@@ -1422,30 +1396,35 @@ const RESOURCES = {
 "assets/imgs/hymn/93.jpeg": "6c605ee013aa9118875deca659b8a0b1",
 "assets/imgs/hymn/280.jpeg": "4f28940ce1ed96f37286655a9d3d3fda",
 "assets/imgs/hymn/256.jpeg": "67022357037152d053101017ed689f79",
-"assets/fonts/MaterialIcons-Regular.otf": "e7069dfd19b331be16bed984668fe080",
+"assets/shaders/ink_sparkle.frag": "f8b80e740d33eb157090be4e995febdf",
+"assets/fonts/MaterialIcons-Regular.otf": "981191f25212a0c4a54105c3c46a8cdc",
+"assets/AssetManifest.bin": "e68550e908d083af1c8d970efe39b8f8",
 "assets/AssetManifest.json": "260b6d06de31fcc33e96ce9cdd4d275d",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "b04a1b183f4b69907f2f17d7395954d7",
-"/": "b04a1b183f4b69907f2f17d7395954d7",
-"canvaskit/canvaskit.wasm": "3de12d898ec208a5f31362cc00f09b9e",
+"index.html": "285600e51f8cc2f37767502e1c0d6166",
+"/": "285600e51f8cc2f37767502e1c0d6166",
+"canvaskit/canvaskit.wasm": "f48eaf57cada79163ec6dec7929486ea",
+"canvaskit/skwasm.js": "1df4d741f441fa1a4d10530ced463ef8",
+"canvaskit/chromium/canvaskit.wasm": "fc18c3010856029414b70cae1afc5cd9",
+"canvaskit/chromium/canvaskit.js": "8c8392ce4a4364cbb240aa09b5652e05",
+"canvaskit/skwasm.worker.js": "19659053a277272607529ef87acf9d8a",
 "canvaskit/profiling/canvaskit.wasm": "371bc4e204443b0d5e774d64a046eb99",
 "canvaskit/profiling/canvaskit.js": "c21852696bc1cc82e8894d851c01921a",
-"canvaskit/canvaskit.js": "97937cb4c2c2073c968525a3e08c86a3",
+"canvaskit/skwasm.wasm": "6711032e17bf49924b2b001cef0d3ea3",
+"canvaskit/canvaskit.js": "76f7d822f42397160c5dfc69cbc9b2de",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "manifest.json": "254a21d3980b96a109ce64e10d845d0b",
-"version.json": "fa7f77b58bec9d53c5687dc9ac366ff3"
-};
-
+"version.json": "fa7f77b58bec9d53c5687dc9ac366ff3"};
 // The application shell files that are downloaded before a service worker can
 // start.
-const CORE = [
-  "main.dart.js",
+const CORE = ["main.dart.js",
 "index.html",
 "assets/AssetManifest.json",
 "assets/FontManifest.json"];
+
 // During install, the TEMP cache is populated with the application shell files.
 self.addEventListener("install", (event) => {
   self.skipWaiting();
@@ -1456,7 +1435,6 @@ self.addEventListener("install", (event) => {
     })
   );
 });
-
 // During activate, the cache is populated with the temp files downloaded in
 // install. If this service worker is upgrading from one with a saved
 // MANIFEST, then use this to retain unchanged resource files.
@@ -1478,6 +1456,8 @@ self.addEventListener("activate", function(event) {
         await caches.delete(TEMP);
         // Save the manifest to make future upgrades efficient.
         await manifestCache.put('manifest', new Response(JSON.stringify(RESOURCES)));
+        // Claim client to enable caching on first launch
+        self.clients.claim();
         return;
       }
       var oldManifest = await manifest.json();
@@ -1503,6 +1483,8 @@ self.addEventListener("activate", function(event) {
       await caches.delete(TEMP);
       // Save the manifest to make future upgrades efficient.
       await manifestCache.put('manifest', new Response(JSON.stringify(RESOURCES)));
+      // Claim client to enable caching on first launch
+      self.clients.claim();
       return;
     } catch (err) {
       // On an unhandled exception the state of the cache cannot be guaranteed.
@@ -1513,7 +1495,6 @@ self.addEventListener("activate", function(event) {
     }
   }());
 });
-
 // The fetch handler redirects requests for RESOURCE files to the service
 // worker cache.
 self.addEventListener("fetch", (event) => {
@@ -1553,7 +1534,6 @@ self.addEventListener("fetch", (event) => {
     })
   );
 });
-
 self.addEventListener('message', (event) => {
   // SkipWaiting can be used to immediately activate a waiting service worker.
   // This will also require a page refresh triggered by the main worker.
@@ -1566,7 +1546,6 @@ self.addEventListener('message', (event) => {
     return;
   }
 });
-
 // Download offline will check the RESOURCES for all files not in the cache
 // and populate them.
 async function downloadOffline() {
@@ -1587,7 +1566,6 @@ async function downloadOffline() {
   }
   return contentCache.addAll(resources);
 }
-
 // Attempt to download the resource online before falling back to
 // the offline cache.
 function onlineFirst(event) {
